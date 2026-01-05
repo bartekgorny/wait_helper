@@ -10,7 +10,7 @@
 
 -export_type([name/0, sleep_time/0, callback/1, validator/1, opts/1, return/1]).
 
--type name() :: atom().
+-type name() :: term().
 %% Condition name, defaults to `timeout'.
 
 -type wait_error(Expected) :: {name(), Expected, history(), undefined | term()}.
