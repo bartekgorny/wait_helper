@@ -62,9 +62,7 @@ branches :
       # Restrict who can push to the protected branch. Note that app, user,
       # and team restrictions are only available for organization-owned repos.
       # Set "restrictions : null" to disable.
-      #restrictions :
-        #apps  :
-          #- gh-repository-settings
-        #users : []
-        #teams : 
-          #- Hillrom-Enterprise/vmobile-write
+      restrictions :
+        apps  : []
+        users : []
+        teams : []
