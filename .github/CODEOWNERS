@@ -1,0 +1,15 @@
+# Specify which users "own" each matching filename. Any pull requests which
+# modify a file which has one or more "owners" will require that one of the
+# "owners" approve the PR before it can be merged.
+#
+# https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-code-owners
+
+########################################
+# Owners of every file in the repo
+#
+* @bartekgorny @travis-motorola
+
+# GitHub scans this file to identify the "owner" of each file, based on the
+# filename or pattern at the beginning of each line. The LAST matching line
+# in this file is used. Because of this, any lines which specify owners of
+# other paths or filename patterns should be added BELOW the "*" line.
